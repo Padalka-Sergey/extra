@@ -1,0 +1,223 @@
+ /* Фон bg, текст кнопок : #FFFFFF 
+ brit, h1, h2: #000000
+lex: #939393
+ links, h3, фон кнопок, цена: #263238
+p, footer-links: #8F95A5
+цифры: #2A3246
+Skills фон карточек: #F5F5F5
+Цены фон: #EEEEEE
+per month: #546269 */
+
+
+:root {
+     /* Fonts colors */
+
+
+     /* Text colors */
+     --black-logo-h: #000000;
+     --grey-logo: #939393;
+     --txt-footer-links: #8F95A5;
+     --links-h3-price: #263238;
+     --white-txt: #FFFFFF;
+     --number: #2A3246;
+     --per-month: #546269;
+
+     /* bg colors */
+     --bg-main: #FFFFFF;
+     --bg-btn: #263238;
+     --bg-pricing-value: #EEEEEE;
+
+     /* Others */
+     --border-btn: #263238;
+
+ }
+
+body {
+    background-color: var(--bg-main);
+    color: var(--txt-footer-links);
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.list {
+    list-style: none;
+}
+
+.logo,
+.header-link,
+.skills-link,
+.footer-link {
+    text-decoration: none;
+}
+
+.button {
+    cursor: pointer;
+    font-family: inherit;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+}
+
+/* Common h1-h2 title */
+
+.skills-title,
+.about-title,
+.pricing-title,
+.contacts-title,
+.hero-title {
+    color: var(--black-logo-h);
+}
+
+/* Dark button */
+
+.hero-btn,
+.contacts-btn {
+    color: var(--white-txt);
+    background-color: var(--bg-btn);
+}
+
+/* Logo */
+
+.header .logo,
+.footer .logo {
+    color: var(--black-logo-h);
+
+    font-size: 36px;
+}
+
+.header .logo {
+    letter-spacing: 0.03em;
+}
+
+.header-logo,
+.footer-logo {
+    color: var(--grey-logo);
+}
+
+/* Header */
+
+.header-link {
+    color: var(--links-h3-price);
+
+    font-weight: 500;
+    font-size: 20px;
+}
+
+ .header-btn {
+    color: var(--black-logo-h);
+    background-color: inherit;
+    border: 2px solid var(--border-btn);
+
+    font-size: 20px;
+} 
+
+/* Hero */
+
+.hero-title {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1.25;
+}
+
+.hero-txt {
+    font-size: 24px;
+}
+
+.hero-btn {
+    font-size: 36px;
+}
+
+
+/* H2 Skills About Prising Contacts */
+.skills-title,
+.about-title,
+.pricing-title,
+.contacts-title {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+/* Skills */
+
+.skills-subtitle {
+    color: var(--links-h3-price);
+
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.skills-txt {
+    font-size: 16px;
+}
+
+.skills-link {
+    color: var(--white-txt);
+    background-color: var(--bg-btn);
+
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* About */
+
+.about-txt {
+    line-height: 1.8;
+}
+
+.about-number {
+    color: var(--number);
+
+    font-weight: 600;
+    font-size: 48px;
+}
+
+/* Pricing */
+
+.pricing-subtitle,
+.pricing-value {
+    color: var(--links-h3-price);
+}
+
+.pricing-subtitle {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.6;
+    text-transform: capitalize;
+}
+
+.pricing-value {
+    background-color: var(--bg-pricing-value);
+
+    font-size: 24px;
+}
+
+.pricing-per-month {
+    color: var(--per-month);
+
+    font-size: 18px;
+}
+
+/* Contacts us */
+
+.contacts-btn {
+    font-weight: 500;
+}
+
+/* Footer */
+.footer-link {
+    color: var(--txt-footer-links);
+
+    font-size: 24px;
+    letter-spacing: 0.02em;
+}
+
+
+
+
+
+
+
+
+
+
